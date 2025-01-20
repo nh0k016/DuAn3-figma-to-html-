@@ -360,11 +360,11 @@ header {
   margin: 0 auto;
 }
 .team__cta {
-  margin-top: 58px;
+  margin-top: 38px;
 }
 .team__list {
-  margin-top: 98px;
-  column-gap: 34px;
+  margin-top: 70px;
+  column-gap: 30px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
@@ -385,7 +385,7 @@ header {
 .team-item:hover .team-item__thumb {
   transform: scale(1.1);
 }
-. .team-item__name {
+.team-item__name {
   color: #10375c;
   text-align: center;
   font-size: 1.6rem;
@@ -394,6 +394,8 @@ header {
   line-height: 1.75; /* 175% */
 }
 .team-item__desc {
+  margin-top: 18px;
+  min-width: 586px;
   margin-top: 12px;
   color: #575f66;
   text-align: center;
@@ -405,4 +407,47 @@ header {
 .team__control {
   margin-top: 38px;
   justify-content: center;
+}
+
+/* =============install====================== */
+.install__inner {
+  margin: 180px 0 85px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 427px;
+  border-radius: 4px;
+  background: #2e80ce;
+  justify-content: space-between;
+  padding: 0 70px;
+}
+.install__heading {
+  max-width: 489px;
+  color: #fff;
+}
+.install__img {
+  bottom: 0;
+  width: 284px;
+  height: 548px;
+  object-fit: cover;
+  position: absolute;
+}
+.install__content {
+  max-width: 586px;
+}
+.install__desc {
+  margin-top: 18px;
+  min-width: 586px;
+  color: #fff;
+  /* font-family: Sora; */
+  font-size: 1.8rem;
+  /* font-style: normal; */
+  font-weight: 300;
+  line-height: 1.6667; /* 166.667% */
+}
+.install__row {
+  margin-top: 38px;
+  display: flex;
+  column-gap: 28px;
+  /* align-items: center; */
 }
